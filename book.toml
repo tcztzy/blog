@@ -1,0 +1,9 @@
+[book]
+authors = ["Tang Ziya"]
+language = "en"
+multilingual = true
+src = "."
+title = "Tang's blog"
+
+[preprocessor.bib]
+bibliography = "literature.bib"
