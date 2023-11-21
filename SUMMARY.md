@@ -6,3 +6,7 @@
   * [ibm_lsf](./hpc/ibm_lsf.md)
   * [workflow](./hpc/workflow.md)
   * [docker](./hpc/docker.md)
+  * [cuda](./hpc/cuda/README.md)
+    - [pycuda](./hpc/cuda/pycuda.md)
+    - [cupy](./hpc/cuda/cupy.md)
+    - [numba](./hpc/cuda/numba.md)
