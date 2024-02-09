@@ -12,6 +12,7 @@ The workflow is a way to organize the code and data in a way that is easy to und
 
 We can simply create a workflow in Python by following these steps:
 
+<!-- mdbook-xgettext:skip -->
 ```python
 import multiprocessing as mp
 

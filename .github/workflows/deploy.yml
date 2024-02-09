@@ -24,12 +24,15 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+env:
+    LANGUAGES: zh-CN
+
 jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
     env:
-      MDBOOK_VERSION: 0.4.36
+      MDBOOK_VERSION: 0.4.37
     steps:
       - uses: actions/checkout@v4
       - name: Install mdBook
@@ -37,11 +40,18 @@ jobs:
           curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf -y | sh
           rustup update
           cargo install --version ${MDBOOK_VERSION} mdbook
+          cargo install mdbook-bib
+          cargo install mdbook-i18n-helpers
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
       - name: Build with mdBook
-        run: mdbook build
+        run: .github/workflows/build.sh en book
+      - name: Build all translations
+        run: |
+          for po_lang in ${{ env.LANGUAGES }}; do
+              .github/workflows/build.sh $po_lang book/$po_lang
+          done
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

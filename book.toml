@@ -2,8 +2,14 @@
 authors = ["Tang Ziya"]
 language = "en"
 multilingual = true
-src = "."
+src = "src"
 title = "Tang's blog"
+
+[build]
+extra-watch-dirs = ["po"]
 
 [preprocessor.bib]
 bibliography = "literature.bib"
+
+[preprocessor.gettext]
+after = ["links"]

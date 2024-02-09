@@ -1,0 +1,265 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tang's blog\n"
+"POT-Creation-Date: 2024-02-09T18:50:23+08:00\n"
+"PO-Revision-Date: 2024-02-09 17:07+0800\n"
+"Last-Translator: 唐梓涯 <tcztzy@gmail.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh-CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/SUMMARY.md:1
+msgid "Summary"
+msgstr "摘要"
+
+#: src/SUMMARY.md:3
+msgid "README"
+msgstr "个人简介"
+
+#: src/SUMMARY.md:5 src/hpc/index.md:1
+msgid "High Performance Computing"
+msgstr "高性能计算"
+
+#: src/SUMMARY.md:6
+msgid "ibm_lsf"
+msgstr "IBM LSF"
+
+#: src/SUMMARY.md:7
+msgid "workflow"
+msgstr "工作流"
+
+#: src/SUMMARY.md:8
+msgid "docker"
+msgstr "Docker"
+
+#: src/SUMMARY.md:9
+msgid "cuda"
+msgstr "CUDA"
+
+#: src/SUMMARY.md:10 src/hpc/cuda/pycuda.md:1
+msgid "pycuda"
+msgstr "PyCUDA"
+
+#: src/SUMMARY.md:11 src/hpc/cuda/cupy.md:1
+msgid "cupy"
+msgstr ""
+
+#: src/SUMMARY.md:12 src/hpc/cuda/numba.md:1
+msgid "numba"
+msgstr ""
+
+#: src/index.md:1
+msgid "Tang Ziya (唐梓涯)"
+msgstr "唐梓涯"
+
+#: src/index.md:3
+msgid ""
+"This is Tang Ziya's personal website. It is powered by [mdBook](https://"
+"github.com/rust-lang/mdBook). For bib support, I use [mdbook-bib](https://"
+"github.com/francisco-perez-sorrosal/mdbook-bib)."
+msgstr ""
+"这是唐梓涯的个人网站。它由[mdBook](https://github.com/rust-lang/mdBook)驱动。"
+"对于bib支持，我使用[mdbook-bib](https://github.com/francisco-perez-sorrosal/"
+"mdbook-bib)。"
+
+#: src/hpc/index.md:3
+msgid "HPC in Bioinformatics"
+msgstr "生物信息学中的高性能计算"
+
+#: src/hpc/index.md:5
+msgid ""
+"Bioinformatics is an interdisciplinary field that develops methods and "
+"software tools for understanding biological data. As an interdisciplinary "
+"field of science, bioinformatics combines biology, computer science, "
+"information engineering, mathematics and statistics to analyze and interpret "
+"biological data. Bioinformatics has been used for in silico analyses of "
+"biological queries using mathematical and statistical techniques. "
+"Bioinformatics is both an umbrella term for the body of biological studies "
+"that use computer programming as part of their methodology, as well as a "
+"reference to specific analysis \"pipelines\" that are repeatedly used, "
+"particularly in the field of genomics. Common uses of bioinformatics include "
+"the identification of candidate genes and nucleotides (SNPs). Often, such "
+"identification is made with the aim of better understanding the genetic "
+"basis of disease, unique adaptations, desirable properties (esp. in "
+"agricultural species), or differences between populations. In a less formal "
+"way, bioinformatics also tries to understand the organizational principles "
+"within nucleic acid and protein sequences, called proteomics."
+msgstr ""
+"生物信息学是一个跨学科领域，它开发了用于理解生物数据的方法和软件工具。作为一"
+"门跨学科的科学领域，生物信息学结合了生物学、计算机科学、信息工程、数学和统计"
+"学，以分析和解释生物数据。生物信息学已被用于使用数学和统计技术对生物问题进行"
+"计算机分析。生物信息学既是一个涵盖生物学研究的术语，又是指特定的分析“管道”，"
+"这些管道在基因组学领域特别是重复使用。生物信息学的常见用途包括候选基因和核苷"
+"酸（SNP）的鉴定。通常，这种鉴定是为了更好地理解疾病的遗传基础、独特的适应性、"
+"理想的特性（尤其是在农业物种中）或不同种群之间的差异。在一个不太正式的方式"
+"中，生物信息学也试图理解核酸和蛋白质序列内部的组织原则，称为蛋白质组学。"
+
+#: src/hpc/ibm_lsf.md:1
+msgid "IBM LSF"
+msgstr ""
+
+#: src/hpc/ibm_lsf.md:3
+msgid ""
+"IBM LSF is a workload management system that allows users to submit jobs to "
+"a cluster. It is used on the HPC clusters at the [Nanjing Agricultural "
+"University Bioinformatics Center](https://bic.njau.edu.cn)."
+msgstr ""
+"IBM LSF是一个工作负载管理系统，允许用户向集群提交作业。它在[南京农业大学生物"
+"信息学中心](https://bic.njau.edu.cn)的HPC集群上使用。"
+
+#: src/hpc/workflow.md:1
+msgid "Workflow"
+msgstr "工作流"
+
+#: src/hpc/workflow.md:3
+msgid "What is a workflow?"
+msgstr "什么是工作流？"
+
+#: src/hpc/workflow.md:5
+msgid ""
+"A workflow is a set of rules that define how to organize the code and data "
+"in a way that is easy to understand and maintain. It is also a way to "
+"automate the process of running the code."
+msgstr ""
+"工作流是一组规则，定义了如何以易于理解和维护的方式组织代码和数据。它还是一种"
+"自动化运行代码的方式。"
+
+#: src/hpc/workflow.md:7
+msgid "Why do we need a workflow?"
+msgstr "为什么我们需要工作流？"
+
+#: src/hpc/workflow.md:9
+msgid ""
+"The workflow is a way to organize the code and data in a way that is easy to "
+"understand and maintain. It is also a way to automate the process of running "
+"the code."
+msgstr ""
+"工作流是一种以易于理解和维护的方式组织代码和数据的方式。它还是一种自动化运行"
+"代码的方式。"
+
+#: src/hpc/workflow.md:11
+msgid "How to create a workflow?"
+msgstr "如何创建工作流？"
+
+#: src/hpc/workflow.md:13
+msgid "We can simply create a workflow in Python by following these steps:"
+msgstr ""
+
+#: src/hpc/workflow.md:27
+msgid ""
+"Or you can use [dask](https://examples.dask.org/applications/evolving-"
+"workflows.html):"
+msgstr ""
+
+#: src/hpc/docker.md:1
+msgid "Docker in HPC"
+msgstr ""
+
+#: src/hpc/docker.md:3
+msgid ""
+"Docker is a containerization platform that allows you to run applications in "
+"an isolated environment. This means that you can run applications without "
+"having to worry about dependencies or conflicts with other applications on "
+"the system. Docker is a great tool for reproducible research because it "
+"allows you to create a container with all of the dependencies needed to run "
+"your code. This container can then be shared with others so that they can "
+"run your code without having to worry about installing dependencies."
+msgstr ""
+
+#: src/hpc/docker.md:5
+msgid "Nvidia Container Toolkit"
+msgstr ""
+
+#: src/hpc/docker.md:7
+msgid ""
+"The [Nvidia Container Toolkit](https://docs.nvidia.com/datacenter/cloud-"
+"native/container-toolkit/latest/index.html) is a set of tools that allow you "
+"to run GPU-accelerated applications in Docker containers."
+msgstr ""
+
+#: src/hpc/cuda/index.md:1
+msgid "Cuda"
+msgstr ""
+
+#: src/hpc/cuda/index.md:3
+msgid ""
+"Cuda is a de facto standard for GPU programming. It is a C++ library that "
+"allows you to write code that runs on the GPU. It is not a language in "
+"itself, but rather a set of extensions to C++."
+msgstr ""
+
+#: src/hpc/cuda/index.md:5
+msgid "Glossary"
+msgstr ""
+
+#: src/hpc/cuda/index.md:7
+msgid "**Host**: The CPU and its memory."
+msgstr ""
+
+#: src/hpc/cuda/index.md:8
+msgid "**Device**: The GPU and its memory."
+msgstr ""
+
+#: src/hpc/cuda/index.md:9
+msgid "**Kernel**: A function that runs on the GPU."
+msgstr ""
+
+#: src/hpc/cuda/index.md:10
+msgid "**Thread**: A single execution unit on the GPU."
+msgstr ""
+
+#: src/hpc/cuda/index.md:11
+msgid "**Blocks**: A group of threads."
+msgstr ""
+
+#: src/hpc/cuda/index.md:12
+msgid "**Grid**: A group of blocks."
+msgstr ""
+
+#: src/hpc/cuda/pycuda.md:3 src/hpc/cuda/cupy.md:5
+msgid "Installation"
+msgstr ""
+
+#: src/hpc/cuda/pycuda.md:9
+msgid "If you get an error like this:"
+msgstr ""
+
+#: src/hpc/cuda/pycuda.md:15
+msgid ""
+"You need to install the CUDA toolkit. See [here](https://developer.nvidia."
+"com/cuda-downloads) for instructions."
+msgstr ""
+
+#: src/hpc/cuda/cupy.md:3
+msgid ""
+"Cupy is a GPU array library that mimics numpy. It is a drop-in replacement "
+"for numpy, but it runs on GPU. It is a good choice for GPU programming "
+"beginners."
+msgstr ""
+
+#: src/hpc/cuda/cupy.md:11 src/hpc/cuda/numba.md:6
+msgid "Example:"
+msgstr ""
+
+#: src/hpc/cuda/cupy.md:17 src/hpc/cuda/cupy.md:18 src/hpc/cuda/numba.md:22
+#: src/hpc/cuda/numba.md:23
+msgid "'f'"
+msgstr ""
+
+#: src/hpc/cuda/numba.md:3
+msgid ""
+"Numba is a just-in-time compiler for Python that works best on code that "
+"uses NumPy arrays and functions, and loops. It is a Python compiler that "
+"translates Python code into optimized machine code at runtime using the "
+"industry-standard LLVM compiler library. Numba-compiled numerical algorithms "
+"in Python can approach the speeds of C or FORTRAN. Numba supports "
+"compilation of Python to run on either CPU or GPU hardware, and is designed "
+"to integrate with the Python scientific software stack."
+msgstr ""
+
+#: src/bibliography.md:1
+msgid "Bibliography"
+msgstr ""
