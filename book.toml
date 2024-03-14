@@ -16,3 +16,6 @@ bibliography = "literature.bib"
 
 [preprocessor.gettext]
 after = ["links"]
+
+[preprocessor.katex]
+after = ["links"]

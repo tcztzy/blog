@@ -42,6 +42,7 @@ jobs:
           cargo install --version ${MDBOOK_VERSION} mdbook
           cargo install mdbook-bib
           cargo install mdbook-i18n-helpers
+          cargo install mdbook-katex
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4

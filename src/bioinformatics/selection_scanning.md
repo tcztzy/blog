@@ -29,33 +29,33 @@ Tajima's D is a measure of the difference between the number of segregating site
 
 ### nSL
 
-We organize phased data as an \\( n \times S_n \\) matrix \\(\mathbf{H}\\) with rows corresponding to the \\(n\\) sampled haplotypes and columns corresponding to the \\(S_n\\) segregating sites, with \\(H_{ik}=1\\) if the $i$th haplotype carries the derived allele at the \\(k\\)th segregating site, and 0 otherwise.
+We organize phased data as an $ n \times S_n $ matrix $\mathbf{H}$ with rows corresponding to the $n$ sampled haplotypes and columns corresponding to the $S_n$ segregating sites, with $H_{ik}=1$ if the $i$th haplotype carries the derived allele at the $k$th segregating site, and 0 otherwise.
 For each segregating site, we define the following sets of haplotypes carrying the ancestral and derived alleles:
-\\[\begin{align}
-A(k) &= \\{i : H_{ik} = 0\\} \\\\
-D(k) &= \\{i : H_{ik} = 1\\}
-\end{align}\\]
-and let \\(n_A(k)\\) and \\(n_D(k)\\) denote the sizes of these respective sets.
-We let \\(p_k\\) be the position, in units of recombination distance, of the \\(k\\)th segregating site.
-It will be useful to refer to single nucleotide polymorphisms (SNPs) by their recombination position, rather than ordinal position in \\(\mathbf{H}\\), so we let \\(H_{i,r_1:r_2}\\) denote the row vector corresponding to segregating sites of the \\(i\\)th haplotype which lie in the open interval \\((r_1, r_2)\\) For haplotypes \\(i\\) and \\(j\\), we define \\(L_{ij}\\) to be as follows:
+$$\begin{align}
+A(k) &= \{i : H_{ik} = 0\} \\
+D(k) &= \{i : H_{ik} = 1\}
+\end{align}$$
+and let $n_A(k)$ and $n_D(k)$ denote the sizes of these respective sets.
+We let $p_k$ be the position, in units of recombination distance, of the $k$th segregating site.
+It will be useful to refer to single nucleotide polymorphisms (SNPs) by their recombination position, rather than ordinal position in $\mathbf{H}$, so we let $H_{i,r_1:r_2}$ denote the row vector corresponding to segregating sites of the $i$th haplotype which lie in the open interval $(r_1, r_2)$ For haplotypes $i$ and $j$, we define $L_{ij}$ to be as follows:
 
-\\[
-    L_{ij} = \max\\{r - l : x \in (p_l, p_r), H_{i, p_l:p_r} \stackrel{ibs}{=} H_{j, p_l:p_r} \\}.
-\\]
+$$
+    L_{ij} = \max\{r - l : x \in (p_l, p_r), H_{i, p_l:p_r} \stackrel{ibs}{=} H_{j, p_l:p_r} \}.
+$$
 
-This is the number of consecutive segregating sites, in the interval containing x, over which haplotypes \\(i\\) and \\(j\\) are identical by state (IBS). At the \\(k\\)th segregating site, our statistic is defined in terms of the mean value of \\(L_{ij}\\) over pairs of haplotypes which either both carry the ancestral or derived allele:
+This is the number of consecutive segregating sites, in the interval containing x, over which haplotypes $i$ and $j$ are identical by state (IBS). At the $k$th segregating site, our statistic is defined in terms of the mean value of $L_{ij}$ over pairs of haplotypes which either both carry the ancestral or derived allele:
 
-\\[\begin{align}
-SL_A(k) &= \frac{2 \sum_{i < j \in A(k)} L_{ij}(p_k)}{n_A(k)(n_A(k)-1)} \\\\
+$$\begin{align}
+SL_A(k) &= \frac{2 \sum_{i < j \in A(k)} L_{ij}(p_k)}{n_A(k)(n_A(k)-1)} \\
 SL_D(k) &= \frac{2 \sum_{i < j \in D(k)} L_{ij}(p_k)}{n_D(k)(n_D(k)-1)}
-\end{align}\\]
+\end{align}$$
 
-Finally, \\(nS_L\\) is defined in a manner analogous to \\(iHS\\) by taking the log ratio of ancestral and derived statistics:
+Finally, $nS_L$ is defined in a manner analogous to $iHS$ by taking the log ratio of ancestral and derived statistics:
 
-\\[\begin{align}
-unstandardized nS_L(k) &= \ln(\frac{SL_A(k)}{SL_D(k)}) \\\\
+$$\begin{align}
+unstandardized nS_L(k) &= \ln(\frac{SL_A(k)}{SL_D(k)}) \\
 nS_L(k) &= \frac{unstandardized nS_L(k) - \mu}{\sigma}
-\end{align}\\]
+\end{align}$$
 
 ```python
 import numpy as np
