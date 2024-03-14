@@ -12,3 +12,7 @@
     - [numba](./hpc/cuda/numba.md)
 - [DevOps](./devops/README.md)
 - [Bioinformatics](./bioinformatics/README.md)
+  * [Recombination rate estimation](./bioinformatics/recombination_rate_estimation.md)
+  * [Selection scanning](./bioinformatics/selection_scanning.md)
+  * [Genome simulation](./bioinformatics/genome_simulation.md)
+  * [Demographic history inference](./bioinformatics/demographic_history_inference.md)
