@@ -33,3 +33,7 @@ We also have serialized data for each sample and feature.
 ### tskit
 
 The `tskit` package is a structured data format for tree sequence data. It is designed for efficient storage and analysis of genealogical data.
+
+### networkx
+
+The `networkx` is a package handling graph data.

@@ -12,6 +12,8 @@
     - [numba](./hpc/cuda/numba.md)
 - [DevOps](./devops/README.md)
 - [Large Language Models](./llm/README.md)
+- [Explainable Artificial Intelligence](./xai/README.md)
+  * [Transformer Debugger](./xai/transformer_debugger.md)
 - [Bioinformatics](./bioinformatics/README.md)
   * [Data Structure](./bioinformatics/data_structure.md)
   * [Recombination rate estimation](./bioinformatics/recombination_rate_estimation.md)
