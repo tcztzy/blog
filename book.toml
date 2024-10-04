@@ -19,3 +19,6 @@ after = ["links"]
 
 [preprocessor.katex]
 after = ["links"]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"

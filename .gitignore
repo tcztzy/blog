@@ -1,2 +1,5 @@
 book
 po/messages.pot
+
+/mermaid*.js
+.DS_Store
