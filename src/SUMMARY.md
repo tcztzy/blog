@@ -12,6 +12,8 @@
     - [numba](./hpc/cuda/numba.md)
 - [DevOps](./devops/README.md)
 - [Large Language Models](./llm/README.md)
+  * [Llama](./llm/llama.md)
+  * [Chain of Thought](./llm/chain_of_thought.md)
 - [Explainable Artificial Intelligence](./xai/README.md)
   * [Transformer Debugger](./xai/transformer_debugger.md)
 - [Bioinformatics](./bioinformatics/README.md)
